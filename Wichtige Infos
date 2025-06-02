@@ -1,0 +1,175 @@
+Allgemeine Hinweise zu Administratorrechten, Systemanforderungen und Haftung
+
+Administratorrechte und Sicherheit
+
+Viele Programme greifen direkt oder indirekt tief in das Betriebssystem ein. Deshalb benötigen einige zwingend Administratorrechte (Adminrechte), um ordnungsgemäß zu funktionieren. Vor der Ausführung weist das Programm immer darauf hin, wenn Adminrechte benötigt werden. So wird die Sicherheit des Systems gewährleistet und ungewollte Änderungen verhindert.
+64-Bit Systemanforderungen
+•	Alle Programme basieren auf 64-Bit-Technologie.
+•	Die Programme sind für Windows 10 und Windows 11 in der 64-Bit-Version konzipiert.
+•	Ein Betrieb auf älteren 64-Bit-Versionen von Windows kann möglich sein, wird jedoch nicht garantiert oder offiziell unterstützt.
+•	Die Entscheidung für 64-Bit basiert darauf, daß die meisten Nutzer heute Windows 10/11 in der 64-Bit-Variante verwenden.
+•	64-Bit-Programme bieten in der Regel bessere Stabilität und Performance im Vergleich zu 32-Bit-Versionen.
+
+Haftungsausschluß
+•	Ich übernehme keinerlei Haftung für Schäden, die durch unsachgemäßen Gebrauch der Programme entstehen.
+•	Nutzer sind für die Verwendung der Programme selbst verantwortlich und sollten stets Vorsicht walten lassen, insbesondere bei Programmen, die tief ins System eingreifen (z.B. Löschen von Dateien, Ändern von Systemeinstellungen).
+•	Es wird empfohlen, vor der Nutzung wichtiger Programme immer ein Backup wichtiger Daten anzufertigen.
+Pro-Versionen und Lizenzkeys.
+
+•	Für einige Programme existieren erweiterte Pro-Versionen, die zusätzliche Optionen und Funktionen enthalten, die in der freien Version nicht verfügbar sind.
+•	Lizenzkeys für die Pro-Versionen müssen separat angefragt werden.
+•	Die Anfrage kann per E-Mail erfolgen oder über die Kommentare; bevorzugt wird jedoch die Kontaktaufnahme per E-Mail, um einen direkten und sicheren Austausch zu gewährleisten.
+________________________________________
+Programmbeschreibungen und wichtige Hinweise
+
+1. Windows Update Manager
+
+Funktion:
+•	Verwaltung, Überwachung und Steuerung von Windows-Updates.
+•	Ermöglicht das manuelle Installieren, Zurücksetzen oder Blockieren von Updates.
+Adminrechte:
+•	Erforderlich, da Windows-Updates tiefgreifende Änderungen am System vornehmen (Systemdateien austauschen, Treiber aktualisieren).
+•	Ohne Adminrechte können keine Updates installiert oder verwaltet werden.
+Besonderheit:
+•	Achte darauf, Updates nicht unbedacht zu blockieren, da dies Sicherheitslücken offenlassen kann.
+________________________________________
+2. USB Guard
+
+Funktion:
+•	Überwacht und kontrolliert den Zugriff auf USB-Ports und angeschlossene Geräte.
+•	Verhindert unerlaubte oder schädliche USB-Geräte (z. B. USB-Sticks mit Malware).
+Adminrechte:
+•	Zwingend erforderlich, da USB-Hardware und Zugriffsrechte auf Systemebene gesteuert werden.
+•	Ermöglicht das Sperren oder Zulassen von Geräten, was ohne Adminrechte nicht möglich wäre.
+________________________________________
+3. Paßwort Prüfer
+
+Funktion:
+•	Analysiert die Stärke und Sicherheit von Paßwörtern.
+•	Prüft Paßwort-Komplexität, Wiederverwendung und potentielle Risiken.
+Adminrechte:
+•	Nicht erforderlich, da keine systemnahen Änderungen durchgeführt werden.
+•	Arbeitet rein lokal und sicher.
+________________________________________
+4. Duplikate Finder
+
+Funktion:
+•	Sucht und identifiziert doppelte Dateien auf der Festplatte, um Speicherplatz freizugeben.
+•	Bietet Löschfunktionen für nicht benötigte Duplikate.
+Adminrechte:
+•	Optional, aber in manchen Fällen notwendig, wenn Systemordner durchsucht oder Dateien gelöscht werden sollen, die besonderen Schutz genießen.
+•	Ohne Adminrechte können einige geschützte Dateien nicht erkannt oder gelöscht werden.
+________________________________________
+5. Internet Monitor
+
+Funktion:
+•	Überwacht die Internetverbindung und Netzwerkaktivitäten.
+•	Zeigt Datenverbrauch, Verbindungsqualität und laufende Netzwerkprozesse an.
+Adminrechte:
+•	In der Regel nicht nötig, außer bei tiefgreifendem Zugriff auf Netzwerk-Stacks oder Firewall-Einstellungen.
+________________________________________
+6. Windows Konto Manager
+
+Funktion:
+•	Verwaltung von Benutzerkonten und deren Zugriffsrechte auf dem System.
+•	Ermöglicht das Anlegen, Ändern und Löschen von Konten und deren Berechtigungen.
+Adminrechte:
+•	Unbedingt erforderlich, da Benutzerkonten-Systemdaten verändert werden.
+•	Ohne Adminrechte ist keine Kontoverwaltung möglich.
+________________________________________
+7. System Info Tool
+
+Funktion:
+•	Liefert umfassende Informationen über Hard- und Software des Computers.
+•	Zeigt Systemressourcen, laufende Prozesse, Treiber, Hardware-Komponenten etc. an.
+Adminrechte:
+•	Keine nötig, da das Tool nur lesend auf Systeminformationen zugreift.
+________________________________________
+8. Windows Startup Manager
+
+Funktion:
+•	Verwalten von Programmen und Diensten, die beim Systemstart automatisch geladen werden.
+•	Ermöglicht Aktivieren, Deaktivieren oder Löschen von Autostart-Einträgen.
+Adminrechte:
+•	Erforderlich, da Startprogramme systemweit verändert werden.
+•	Ohne Adminrechte können manche Autostart-Einträge nicht bearbeitet werden.
+________________________________________
+9. Auto Backup
+
+Funktion:
+•	Automatisiertes Erstellen von Sicherungskopien wichtiger Dateien und Ordner.
+•	Kann auf Wunsch auch Systemordner sichern.
+Adminrechte:
+•	Je nach Umfang des Backups erforderlich, besonders wenn Systemordner betroffen sind.
+•	Adminrechte erlauben Zugriff auf geschützte Bereiche.
+________________________________________
+10. Schredder
+
+Funktion:
+•	Sichere und endgültige Löschung von Dateien, die nicht wiederherstellbar sein sollen.
+•	Überschreibt Dateien mehrfach, um Datenrettung zu verhindern.
+Adminrechte:
+•	Notwendig, da Dateien tief im System gelöscht werden.
+•	Ohne Adminrechte könnten manche geschützten Dateien nicht gelöscht werden.
+________________________________________
+11. Kopfgeldgenerator
+
+Funktion:
+•	(Unklar, bitte genauere Beschreibung ergänzen)
+•	Vermutlich ein spezielles Tool mit systemnahen Eingriffen oder Berechnungen.
+Adminrechte:
+•	Falls tiefere Systemeingriffe notwendig sind, erfolgt ein entsprechender Hinweis.
+________________________________________
+Zusammenfassung: Sicherheit und Bedienung
+
+•	Adminrechte nur bei Bedarf: Programme fragen nur dann nach Adminrechten, wenn sie wirklich notwendig sind.
+•	Hinweise vor Ausführung: Der Nutzer wird immer vorab über den Adminrechtebedarf informiert.
+•	Systemschutz: Dadurch wird das System vor ungewollten oder schädlichen Änderungen geschützt.
+•	Tiefgreifende Systemeingriffe: Programme, die Dateien löschen, erstellen oder verändern, greifen bewußt tief ins System ein, daher ist Vorsicht geboten.
+•	64-Bit-Basis: Programme laufen nur auf Windows 10 und 11 (64-Bit), ältere 64-Bit-Versionen werden nicht offiziell unterstützt.
+•	Haftungsausschluß: Für Schäden durch unsachgemäßen Gebrauch wird keine Haftung übernommen.
+•	Pro-Versionen: Einige Programme haben optionale Pro-Versionen mit mehr Funktionen. Lizenzkeys können per E-Mail angefragt werden (bevorzugte Kontaktmethode).
+
+Ergänzende wichtige Hinweise zu meinen Programmen
+
+1. Systemvoraussetzungen im Detail
+Die Programme sind so entwickelt, dass sie auf allen modernen Geräten mit Windows 10 oder Windows 11 (64-Bit) problemlos laufen. Es werden keine besonders leistungsstarken Hardwarekomponenten benötigt, sodass sie auch auf durchschnittlichen Systemen stabil und zuverlässig funktionieren.
+
+2. Installations- und Update-Hinweise
+Updates der Programme werden regelmäßig auf GitHub und in der Cloud veröffentlicht. Nutzer können sich dort stets die aktuellsten Versionen herunterladen. Für die Zukunft ist geplant, eine detaillierte Update-Historie bereitzustellen, damit Änderungen und Verbesserungen nachvollziehbar sind.
+
+3. Support und Kontakt
+Bei Fragen, Problemen oder Anregungen steht der Support per E-Mail zur Verfügung:
+codemajorx@gmail.com
+Bitte nutze vorzugsweise diesen Kanal, um eine schnelle und direkte Kommunikation zu gewährleisten.
+
+4. Bedienungshinweise / Kurzanleitungen
+Die Programme sind bewusst einfach und selbsterklärend gestaltet. Eine ausführliche Bedienungsanleitung ist daher nicht notwendig. Sollte dennoch einmal eine Frage auftauchen, hilft der Support gerne weiter.
+
+5. Datenschutz und Sicherheit
+Es werden zu keiner Zeit persönliche oder sensible Daten auf externen Servern gespeichert. Jegliche Speicherung erfolgt ausschließlich lokal auf dem Gerät des Nutzers. Dies gewährleistet maximalen Datenschutz und schützt deine Daten vor unerwünschtem Zugriff.
+
+6. Versionshistorie / Changelog
+Siehe Punkt 2: Die Update-Historie wird in Zukunft veröffentlicht, um die Transparenz über neue Funktionen, Fehlerbehebungen und Änderungen zu erhöhen.
+
+7. Bekannte Einschränkungen und Fehler
+Sollten dir Fehler oder Einschränkungen bei der Nutzung auffallen, wird um Rückmeldung gebeten. Dies hilft dabei, die Programme kontinuierlich zu verbessern und die Nutzererfahrung zu optimieren.
+
+8. Kompatibilität mit Drittprogrammen
+Aufgrund der tiefgreifenden Eingriffe einiger Programme in das System (z.B. Windows Update Manager, USB Guard, Windows Konto Manager, Windows Startup Manager und Schredder) kann es vorkommen, dass manche Virenscanner oder Sicherheitsprogramme Fehlalarme (False Positives) melden. Dies liegt daran, dass die Programme auf Systemebene agieren, was von manchen Schutzsoftware-Lösungen als potenziell riskant eingestuft wird. Diese Meldungen sind in der Regel unbegründet, dennoch sollte der Nutzer die Programme nur aus vertrauenswürdigen Quellen herunterladen und verwenden.
+
+9. Originaldateien und Echtheit
+Die originalen Programmdateien sind ausschließlich über folgende offizielle Quellen verfügbar:
+•	GitHub: https://github.com/PraesidentenGamer
+•	Entsprechende Cloud-Speicher (wie angegeben)
+Jegliche anderen Quellen, sofern nicht ausdrücklich von mir autorisiert und gelistet, sind als Fälschungen einzustufen. Bitte lade die Programme ausschließlich von den offiziellen Quellen herunter und vermeide die Nutzung von Dateien aus anderen, nicht verifizierten Quellen.
+
+10. Testumgebung und Entwicklungsbasis
+Die Programme wurden auf folgender Hard- und Softwareumgebung entwickelt und getestet:
+•	CPU: AMD Ryzen 3 7320U
+•	RAM: 8 GB DDR5
+•	SSD: 512 GB
+•	Betriebssystem: Windows 11 (64-Bit), aktuellste Version
+Diese Umgebung garantiert eine stabile Basis für die Programme. Unterschiede bei der Hardware oder Betriebssystemversionen können zu abweichendem Verhalten führen, weshalb die Programme hauptsächlich für Windows 10/11 (64-Bit) optimiert sind.
+
+
